@@ -101,28 +101,11 @@ footer {
 }
 
 .prov-title {
-  font-size: 4rem;
+  font-size: clamp(2.75rem, 1.697rem + 3.509vw, 4rem);
   text-align: center;
   
   margin: 1rem 0;
 } 
-
-.info-banner {
-  display: flex;
-  justify-content: space-between;
-
-  h3 {
-    text-align: center;
-  }
-
-  .left {
-    flex: 1;
-  }
-
-  .right {
-    flex: 1;
-  }
-}
 
 .date-info {
   text-align: center;
@@ -474,6 +457,24 @@ main section{
     width: 100%;
     /*float: right;*/
   }
+
+  .pages {
+  display: flex;
+  flex-direction: column;
+
+  .left, .right {
+    flex: 1;
+    text-align: center;
+  
+    img {
+      height: auto;
+      width: 100%;
+
+    }
+
+  }
+
+}
 
 
 }
