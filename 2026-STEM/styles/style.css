@@ -79,7 +79,25 @@ footer {
   }
 }
 
+.colaboradores {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 3rem;
+  
+}
+
+.colab-ciencias {
+  width: 60%;
+}
 
 
 *{
@@ -339,12 +357,10 @@ footer {
 
 
   .imagesColaboradores img{
-    width: 40%;
+    width: 70%;
   }
 
-  .imagesColaboradores{
-    border-bottom: 1px solid black;
-  }
+
 
 /*****************************************************************************************/
 /*****************************************************************************************/

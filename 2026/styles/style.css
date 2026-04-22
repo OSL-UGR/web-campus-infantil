@@ -108,7 +108,27 @@ footer {
   }
 }
 
+.colaboradores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin: 3rem;
 
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  p {
+    text-align: left;
+    margin-right: 10rem;
+  }
+}
+
+.main-title {
+  text-align: center;
+  font-size: 3rem;
+  
+}
 
 
 
@@ -356,12 +376,9 @@ footer {
 
 
   .imagesColaboradores img{
-    width: 40%;
+    width: 50%;
   }
 
-  .imagesColaboradores{
-    border-bottom: 1px solid black;
-  }
 
 /*****************************************************************************************/
 /*****************************************************************************************/
