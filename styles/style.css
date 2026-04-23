@@ -41,6 +41,8 @@ h1 {
 
 }
 
+
+
 .horizontal {
   margin-top: 3rem;
   text-align: center;
@@ -48,6 +50,15 @@ h1 {
   img {
     width: 50rem;
     height: auto;
+  }
+}
+
+.title {
+  margin: 3rem;
+
+  img {
+    height: auto;
+    width: 75%;
   }
 }
 
@@ -109,6 +120,10 @@ footer {
 
 .date-info {
   text-align: center;
+}
+
+.mb {
+  margin-bottom: 1.7rem;
 }
 
 
