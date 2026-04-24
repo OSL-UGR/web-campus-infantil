@@ -110,7 +110,7 @@ footer {
 
 .colaboradores {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
   margin: 3rem;
 
@@ -120,7 +120,7 @@ footer {
 
   p {
     text-align: left;
-    margin-right: 10rem;
+    
   }
 }
 
@@ -471,6 +471,9 @@ main section{
     overflow: none;
   }
 
+  .colaboradores {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   #imageProg img{
     width: 100%;
