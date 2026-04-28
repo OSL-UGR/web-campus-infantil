@@ -61,6 +61,16 @@ h1 {
   }
 }
 
+.sub-title {
+  margin: 4rem;
+  text-align: center;
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+}
+
 .info-banner a {
   color: black;
 }
